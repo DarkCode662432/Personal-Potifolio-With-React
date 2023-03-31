@@ -1,0 +1,77 @@
+/* Bannar ======================================== */
+header.bannar {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url('../../assets/img/banner-bg.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+header.bannar span.tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  border: 1px solid #ffffff80;
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+header.bannar div.container div.row div h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+
+header.bannar span.wrap {
+  border-right: 0.08em solid #666;
+  /* animation: typing 1.5s infinite linear; */
+}
+
+header.bannar div.container div.row div p {
+  color: #bbb;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+header.bannar div.container div.row div button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+
+header.bannar div.container div.row div button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+
+header.bannar div.container div.row div button:hover svg{
+  margin-left: 25px;
+}
+
+header.bannar img.bg-img {
+  animation: updown 3s linear infinite;
+  width: 100%;
+}
+
+@keyframes updown {
+  0% {transform: translateY(-20px);}
+  50% {transform: translateY(20px);}
+  100% {transform: translateY(-20px);}
+}
+/* =============================================== */
