@@ -30,8 +30,8 @@ section.skills div.skill-box div.skill-slider {
   position: relative;
 }
 
-section.skills div.skill-box img.background-image-left {
-  top: 20%;
+section.skills img.background-image-left {
+  top: -20%;
   position: absolute;
   bottom: 0;
   width: 40%;

@@ -8,7 +8,7 @@ import './styles/Bannar.css';
 const Bannar = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Front-end Web Developer", "Front-end Web Designer"];
+  const toRotate = ["Front-end Developer", "Web Designer"];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random()*100);
   const period = 2000;
